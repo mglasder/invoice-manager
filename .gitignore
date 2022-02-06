@@ -1,0 +1,7 @@
+repo/
+.idea/
+__pycache__
+.pytest_cache/
+credentials.yaml
+
+/private_config.yaml

@@ -1,0 +1,8 @@
+invoice_directory: "path/to/invoice_files"
+repo_directory: "path/to/invoice_repo"
+sender: "sender@example.com"
+recipient: "recipient@example.com"
+gmail_credentials: "xxxxxx"
+mail_subject: "Refund request"
+currency: "CHF"
+signature: "John Doe"
