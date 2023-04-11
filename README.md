@@ -92,12 +92,24 @@ RefundProcessor *.. InvoiceRepository
 StatsCalculator *.. InvoiceRepository
 InvoiceLister *.. InvoiceRepository
     
-
 ```
+
+### Prerequisites
+
+Modify the config.yaml file to your needs:
+
+- invoice_directory: the path to the folder on your machine where pdf invoices are stored
+- repo_directory: the path to the folder on your machine, where the invoice repository (the database of the app) should be stored
+- gmail_credentials: the credentials for the Gmail API (see below)
+- the remaining should be self-explanatory
+
+Setup Gmail to be usable by the app and retrieve your credentials:
+Follow the "Authorize credentials for a desktop application" section in this guide: https://developers.google.com/gmail/api/quickstart/python
+
 
 ### Installation
 
-To install the app, clone the repository and run the following command:
+To install the app, clone the repository and run the following commands:
 
 ```bash
 
